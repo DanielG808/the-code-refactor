@@ -98,4 +98,49 @@ In order to make the code more readable, the over abundance of div tags found in
 </head>
 ```
 
+## Missing alt attributes for image elements
 
+* *Before*
+
+```
+<section class="search-engine-optimization">
+            <img src="./assets/images/search-engine-optimization.jpg" class="float-left" />
+            <h2>Search Engine Optimization</h2>
+            <p>
+                The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
+            </p>
+        </section>
+```
+
+* *After*
+
+```
+<section class="search-engine-optimization">
+            <img src="./assets/images/search-engine-optimization.jpg" alt="a notebook showing a flow chart for the process of SEO" class="float-left" />
+            <h2>Search Engine Optimization</h2>
+            <p>
+                The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
+            </p>
+        </section>
+```
+
+## Boring and non-descriptive website title
+
+* *Before*
+
+```
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>website</title>
+</head>
+```
+* *After*
+
+```
+<head>
+    <meta charset="UTF-8" />
+    <title>Horiseon Social Solution Services, Inc.</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+```
