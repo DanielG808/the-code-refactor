@@ -21,7 +21,7 @@ After reviewing the webpages sourcecode, it became clear that the code was not o
 
 In order to make the code more readable, the over abundance of div tags found in the source code were replaced. Below is an example of how an aside featuring headers, images, and text was updated:
 
-* **Before*
+* *Before*
 
 ```
 <div class="benefits">
@@ -49,7 +49,7 @@ In order to make the code more readable, the over abundance of div tags found in
     </div>
 ```
 
-* **After*
+* *After*
 
 ```
 <aside class="benefits">
@@ -78,8 +78,24 @@ In order to make the code more readable, the over abundance of div tags found in
 ```
 ### Misplacement of CSS style sheet
 
-* **Before*
+* *Before*
 
+```
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Horiseon Social Solution Services, Inc.</title>
+</head>
+```
 
+* *After*
+
+```
+<head>
+    <meta charset="UTF-8" />
+    <title>Horiseon Social Solution Services, Inc.</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+```
 
 
