@@ -17,11 +17,11 @@ After reviewing the webpages sourcecode, it became clear that the code was not o
 
 ## Sourecode Semantic Fixes
 
-### Overusage of <div> tag
+### Overusage of div tag
 
-In order to make the code more readable, the over abundance of <div> tags found in the source code were replaced. Below is an example of how an aside featuring headers, images, and text was updated:
+In order to make the code more readable, the over abundance of div tags found in the source code were replaced. Below is an example of how an aside featuring headers, images, and text was updated:
 
-* **Before**
+* **Before*
 
 ```
 <div class="benefits">
@@ -49,7 +49,7 @@ In order to make the code more readable, the over abundance of <div> tags found 
     </div>
 ```
 
-* **After**
+* **After*
 
 ```
 <aside class="benefits">
@@ -76,19 +76,10 @@ In order to make the code more readable, the over abundance of <div> tags found 
         </figure>
     </aside>
 ```
+### Misplacement of CSS style sheet
 
-```
-GIVEN a webpage meets accessibility standards
-WHEN I view the source code
-THEN I find semantic HTML elements
-WHEN I view the structure of the HTML elements
-THEN I find that the elements follow a logical structure independent of styling and positioning
-WHEN I view the icon and image elements
-THEN I find accessible alt attributes
-WHEN I view the heading attributes
-THEN they fall in sequential order
-WHEN I view the title element
-THEN I find a concise, descriptive title
-```
+* **Before*
+
+
 
 
