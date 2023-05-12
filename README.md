@@ -144,3 +144,7 @@ In order to make the code more readable, the over abundance of div tags found in
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 ```
+
+# Conclusion
+
+After reviewing the accpetance criteria and implementing the listed changes, the site has been relaunched at: https://kankanrr.github.io/hw1-code-refactor/
