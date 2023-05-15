@@ -13,6 +13,7 @@ After reviewing the webpages sourcecode, it became clear that the code was not o
 * incorrect placement of the CSS style sheet within the HTML file
 * missing alt attributes for image elements
 * boring and non-descriptive website title
+* redundancy in the CSS properties
 
 
 ## Sourecode Semantic Fixes
@@ -144,6 +145,50 @@ In order to make the code more readable, the over abundance of div tags found in
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 ```
+
+## Redundancy in the CSS properties
+
+* *Before*
+
+```
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+```
+
+* *After*
+
+```
+.benefit {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+```
+
+![alt text](./assets/site-screenshot.png.png)
 
 # Conclusion
 
